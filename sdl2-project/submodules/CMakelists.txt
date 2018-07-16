@@ -1,0 +1,3 @@
+set(SDL_STATIC OFF)
+set(SDL_SHARED ON)
+add_subdirectory(SDL-mirror)
