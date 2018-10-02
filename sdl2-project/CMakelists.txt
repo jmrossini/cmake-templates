@@ -14,4 +14,4 @@ add_subdirectory(submodules)
 
 add_executable(SDL2Project main.cpp)
 target_include_directories(SDL2Project PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/submodules/SDL-mirror/include)
-target_link_libraries(SDL2Project SDL2)
+target_link_libraries(SDL2Project SDL2) #for static link use "SDL2-static"

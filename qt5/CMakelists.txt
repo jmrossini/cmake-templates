@@ -1,0 +1,19 @@
+# qt5-cmake Manual http://doc.qt.io/qt-5/cmake-manual.html
+
+cmake_minimum_required(VERSION 3.12)
+project(MyProject VERSION 0.0.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 11)
+
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOMOC ON)
+
+find_package(Qt5 COMPONENTS Widgets REQUIRED)
+
+add_executable(MyProject
+    mainwindow.cpp
+    mainwindow.hpp
+    main.cpp    
+)
+
+target_link_libraries(MyProject Qt5::Widgets)
