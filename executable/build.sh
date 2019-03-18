@@ -1,6 +1,5 @@
 #!/bin/sh
 
-mkdir _build
-cd _build
+mkdir build && cd build
 cmake -G "Unix Makefiles" ..
 make

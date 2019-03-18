@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.8)
-project(SDL2Project VERSION 0.0.0 LANGUAGES CXX)
+cmake_minimum_required(VERSION 3.12)
+project(MyProject VERSION 0.0.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 11)
 
 set(OUT_LIB_DIR ${CMAKE_BINARY_DIR}/lib)
@@ -12,6 +12,6 @@ link_directories(${OUT_LIB_DIR})
 find_package(OpenGL REQUIRED)
 add_subdirectory(submodules)
 
-add_executable(SDL2Project main.cpp)
-target_include_directories(SDL2Project PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/submodules/SDL-mirror/include)
-target_link_libraries(SDL2Project SDL2) #for static link use "SDL2-static"
+add_executable(MyProject main.cpp)
+target_include_directories(MyProject PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/submodules/SDL-mirror/include)
+target_link_libraries(MyProject SDL2) #for static link use "SDL2-static"

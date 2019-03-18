@@ -1,14 +1,12 @@
-# Qt5 CMake
+# SDL2 CMake
 
 ## Notes
-Qt5 have some nice integration with CMake, check the [Manual](https://doc.qt.io/qt-5/cmake-manual.html) for more info.\
-**CMake Minimum version 3.1.0**
-
+Alternative [CMake modules](https://gitlab.com/aminosbh/sdl2-cmake-modules).
 
 ## Requirement
 -  C/C++ Compiler _(pick your poison)_ [Clang](https://releases.llvm.org/download.html), [GCC](https://gcc.gnu.org/releases.html), [MSVC](https://visualstudio.microsoft.com/vs/)
-- [Qt5](https://qt.io/download)
 
+- SDL2 [Repository](https://github.com/spurious/SDL-mirror) / [Installer](https://www.libsdl.org/download-2.0.php)
 
 ## Build project
 
