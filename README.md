@@ -1,9 +1,9 @@
 # CMake-Templates
-Some handy templates and examples to get things moving fast.
+Some handy templates and examples to make things go faster.
 
 [CMake Documentation](https://cmake.org/documentation/)
 
-## Dowloads
+## Downloads
 - [CMake](https://cmake.org/download/)
 - [Git](https://git-scm.com/downloads)
 
